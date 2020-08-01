@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/bottom_sheet"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    app:behavior_peekHeight="0dp"
+    android:background="@android:color/white"
+    android:layout_marginBottom="56dp"
+    android:padding="12dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_profile"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/peaky1"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#03a9f4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_profile"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="18sp"
+            android:text="Than Toe Aung \nJunior Programmer"/>
+
+    </RelativeLayout>
+
+<!--    <view-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50 Zawtika Street,Tamwe Townshiop, Yangon"
+        android:drawableStart="@drawable/ic_location"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:drawableTint="#1565c0"
+        android:drawablePadding="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="thantoeaung.galaxy@gmail.com"
+        android:drawableStart="@drawable/ic_mail"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:drawableTint="#e91e63"
+        android:drawablePadding="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+95  9420781863"
+        android:drawableStart="@drawable/ic_phone"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:drawableTint="#388e3c"
+        android:drawablePadding="8dp"/>
+</LinearLayout>

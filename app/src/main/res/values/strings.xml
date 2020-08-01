@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BottomSheet</string>
+
+    <string name="toolbar_title">Meditate</string>
+    
+    <string name="menu_meditate">meditate</string>
+    <string name="menu_me">me</string>
+    <string name="menu_more">more</string>
+    <string name="menu_search">search</string>
+</resources>
